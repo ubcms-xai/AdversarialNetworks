@@ -9,15 +9,34 @@ You will need to run this in two separate docker images:
 
 **srappoccio/innvestigate_tensorflow:latest** and **srappoccio/ubccr-cms:latest**
 
-To get started, either go to the directory where you have cloned the Adversarial Network repository and do
+To run with two separate dockers, make two directories:
 
-``git pull origin``
 
-or clone into a new directory:
 
-``mkdir AdversarialNetworks``
+`
+``mkdir AdversarialNetworks_innvestigate_tensorflow``
+
+``cd AdversarialNetworks_innvestigate_tensorflow``
 
 ``git clone https://github.com/ubcms-xai/AdversarialNetworks.git``
+
+``docker pull srappoccio/innvestigate_tensorflow:latest``
+
+Make another directory for the ubccr-cms docker:
+
+``cd ../../``
+
+``mkdir AdversarialNetworks_ubccr-cms``
+
+``cd AdversarialNetworks_ubccr-cms``
+
+``git clone https://github.com/ubcms-xai/AdversarialNetworks.git``
+
+``docker pull srappoccio/ubccr-cms:latest``
+
+
+Then you can begin running the code.
+
 
 
 First run  ``convert_dataset.ipynb`` and ``keras_train__docker_innvestigate_tensorflow.ipynb`` in the **innvestigate_tensorflow** docker image.
@@ -31,5 +50,6 @@ If you are not running on Winterfell (most of you), you will have to download th
 
 ### Code to run in ubccr-cms docker
 3. keras_train__docker_ubccr-cms.ipynb
+
 
 
