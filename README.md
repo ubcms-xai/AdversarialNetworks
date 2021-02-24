@@ -13,7 +13,6 @@ To run with two separate dockers, make two directories:
 
 
 
-`
 ``mkdir AdversarialNetworks_innvestigate_tensorflow``
 
 ``cd AdversarialNetworks_innvestigate_tensorflow``
@@ -24,7 +23,7 @@ To run with two separate dockers, make two directories:
 
 Make another directory for the ubccr-cms docker:
 
-``cd ../../``
+``cd ../``
 
 ``mkdir AdversarialNetworks_ubccr-cms``
 
