@@ -21,6 +21,8 @@ To run with two separate dockers, make two directories:
 
 ``docker pull srappoccio/innvestigate_tensorflow:latest``
 
+``bash ./runDockerCommandLine.sh 8888 srappoccio/innvestigate_tensorflow:latest``
+
 Make another directory for the ubccr-cms docker:
 
 ``cd ../``
@@ -33,12 +35,16 @@ Make another directory for the ubccr-cms docker:
 
 ``docker pull srappoccio/ubccr-cms:latest``
 
+``bash ./runDockerCommandLine.sh 8889 srappoccio/innvestigate_tensorflow:latest``
+
+
 
 Then you can begin running the code.
 
 
 
 First run  ``convert_dataset.ipynb`` and ``keras_train__docker_innvestigate_tensorflow.ipynb`` in the **innvestigate_tensorflow** docker image.
+
 
 If you are not running on Winterfell (most of you), you will have to download the .h5 files that ``convert_dataset.ipynb`` is converting. These are found here https://zenodo.org/record/2603256
 
