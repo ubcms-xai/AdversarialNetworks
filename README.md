@@ -35,7 +35,7 @@ Make another directory for the ubccr-cms docker:
 
 ``docker pull srappoccio/ubccr-cms:latest``
 
-``bash ./runDockerCommandLine.sh 8889 srappoccio/innvestigate_tensorflow:latest``
+``bash ./runDockerCommandLine.sh 8889 srappoccio/ubccmr-cms:latest``
 
 
 
