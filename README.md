@@ -3,7 +3,7 @@ Using adversarial networks to reduce uncertainties or look for BSM physics
 
 
 
-## Run Adapted Particle Net Code
+## Tests and Tutorials
 
 You will need to run this in the **srappoccio/ubccr-cms:latest** docker image. 
 
