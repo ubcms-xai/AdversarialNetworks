@@ -29,6 +29,8 @@ Then you can begin running the code.
 
 1. Open `ToyModel/makeFourVectors.ipynb`
 2. Click "Run"
-3. Open `ToyModel/toy_adversarial_1dcnn.ipynb`
-4. Click "Run"
+3. Change `addPerturbation = True` to `addPerturbation = False`
+4. Click "Run" again
+5. Open `ToyModel/toy_adversarial_1dcnn.ipynb`
+6. Click "Run"
 
