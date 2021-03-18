@@ -35,7 +35,7 @@ Make another directory for the ubccr-cms docker:
 
 ``docker pull srappoccio/ubccr-cms:latest``
 
-``bash ./runDockerCommandLine.sh 8889 srappoccio/ubccmr-cms:latest``
+``bash ./runDockerCommandLine.sh 8889 srappoccio/ubccr-cms:latest``
 
 
 
@@ -53,7 +53,9 @@ If you are not running on Winterfell (most of you), you will have to download th
 1. convert_dataset.ipynb
 2. keras_train__docker_innvestigate_tensorflow.ipynb
 
-### Code to run in ubccr-cms docker
+### Code to run in ub
+
+-cms docker
 3. keras_train__docker_ubccr-cms.ipynb
 
 
