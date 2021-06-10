@@ -41,7 +41,7 @@ Start the docker image (do every time). You may have to change the port from 888
 
 ```
 cd AdversarialNetworks
-mkdir AdversarialNetworks/data
+mkdir data
 chmod -R 777 . 
 bash ./runDockerCommandLine.sh 8888 srappoccio/ubccr-cms:latest
 ```
