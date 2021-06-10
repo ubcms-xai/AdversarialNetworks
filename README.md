@@ -32,7 +32,6 @@ Clone the package (do once):
 
 ```
 git clone https://github.com/ubcms-xai/AdversarialNetworks.git
-mkdir AdversarialNetworks/data
 chmod -R 777 AdversarialNetworks
 ```
 
@@ -41,7 +40,10 @@ chmod -R 777 AdversarialNetworks
 Start the docker image (do every time). You may have to change the port from 8888 to something else like 8883, 8884, etc. 
 
 ```
-bash ./AdversarialNetworks/runDockerCommandLine.sh 8888 srappoccio/ubccr-cms:latest
+cd AdversarialNetworks
+mkdir AdversarialNetworks/data
+chmod -R 777 . 
+bash ./runDockerCommandLine.sh 8888 srappoccio/ubccr-cms:latest
 ```
 
 
